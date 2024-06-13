@@ -1,0 +1,42 @@
+
+div p{
+    /* background-color: olive; */
+}
+
+.container div p{/*! .containeriçindeki div içindeki p */
+    /* background-color: red; */
+}
+
+p + div {/*! p'den sonra gelen div */
+ /* background-color: orangered; */
+}
+
+div + p { /*! div'den sonra gelen ilk p */
+
+    /* background-color: green; */
+}
+
+div > p {/*! parenti div olan p */
+    /* background-color: red; */
+}
+
+body > p {
+    /* background-color: blue; */
+}
+
+div ~ p { /*! div'den sonra bütün p'ler */
+
+    /* background-color: green; */
+}
+
+h1[title="baslik1"]{
+    background-color: orange;
+}
+
+h1[title="baslik2"]{
+    background-color: gray;
+}
+
+a[target="_blank"]{
+    background-color: fuchsia;
+}
